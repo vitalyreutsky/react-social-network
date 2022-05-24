@@ -1,0 +1,8 @@
+.app {
+  height: 100vh;
+}
+
+.app-wrapper {
+  display: flex;
+  align-items: stretch;
+}
