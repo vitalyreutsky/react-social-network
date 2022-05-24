@@ -18,7 +18,7 @@
 
 .profile-user__text {
   margin: 0;
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .profile-user__likes {
@@ -31,6 +31,11 @@
   height: 20px;
 }
 
-.like {
-  margin-right: var(--spacing-small);
+.profile-user__like {
+  margin-right: var(--spacing-medium);
+}
+
+.like-item {
+  display: flex;
+  flex-direction: column;
 }

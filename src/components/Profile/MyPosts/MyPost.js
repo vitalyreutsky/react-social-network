@@ -10,7 +10,8 @@ const MyPosts = () => {
         <textarea className="profile-user__textarea"></textarea>
         <button className="profile-user__btn">Добавить</button>
       </div>
-      <Post />
+      <Post message="Hi, are you?" like="15" dis="1" />
+      <Post message="Hi, it`s my first post!" />
     </div>
   );
 };
