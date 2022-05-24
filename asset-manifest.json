@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-social-network/static/css/main.f4e82882.css",
-    "main.js": "/react-social-network/static/js/main.3e36473b.js",
+    "main.css": "/react-social-network/static/css/main.19bd70d5.css",
+    "main.js": "/react-social-network/static/js/main.87cc3204.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-social-network/static/js/787.28cb0dcd.chunk.js",
     "static/media/MullerRegular.woff2": "/react-social-network/static/media/MullerRegular.33ae73af0bab56f7dd13.woff2",
     "index.html": "/react-social-network/index.html",
-    "main.f4e82882.css.map": "/react-social-network/static/css/main.f4e82882.css.map",
-    "main.3e36473b.js.map": "/react-social-network/static/js/main.3e36473b.js.map",
+    "main.19bd70d5.css.map": "/react-social-network/static/css/main.19bd70d5.css.map",
+    "main.87cc3204.js.map": "/react-social-network/static/js/main.87cc3204.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-social-network/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4e82882.css",
-    "static/js/main.3e36473b.js"
+    "static/css/main.19bd70d5.css",
+    "static/js/main.87cc3204.js"
   ]
 }
