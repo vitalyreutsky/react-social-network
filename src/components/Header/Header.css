@@ -1,11 +1,11 @@
 .header {
   width: 100%;
-  padding: var(--spacing-medium) 0px;
+  padding: var(--spacing-large) 0px;
   background-color: var(--color-white);
   margin-bottom: var(--spacing-small);
 }
 
 .btn {
-   width: 100px;
-   height: 100px;
+  width: 100px;
+  height: 100px;
 }

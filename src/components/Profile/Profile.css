@@ -6,3 +6,7 @@
 .app-content__bg img {
   height: 150px;
 }
+
+.profile {
+  padding: var(--spacing-medium);
+}

@@ -1,0 +1,6 @@
+.profile-user__add-post {
+  margin-bottom: var(--spacing-extralarge);
+}
+.profile-user__btn {
+  display: block;
+}

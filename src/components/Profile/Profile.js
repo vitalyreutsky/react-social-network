@@ -1,3 +1,5 @@
+import MyPosts from "./MyPosts/MyPost";
+
 import "./Profile.css";
 
 const Profile = () => {
@@ -10,13 +12,8 @@ const Profile = () => {
           alt="bg"
         />
       </div>
-      <div className="profile__content-user profile__user">
-        <img className="profile__user-img" src="" alt="user" />
-        <div className="profile__user__title">My post</div>
-        <div className="profile__user__title">New post</div>
-        <div className="profile__user__title">Post 1</div>
-        <div className="profile__user__title">Post 2</div>
-      </div>
+
+      <MyPosts />
     </div>
   );
 };

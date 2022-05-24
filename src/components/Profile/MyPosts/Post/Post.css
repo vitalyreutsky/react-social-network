@@ -1,0 +1,36 @@
+.profile-user__post {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-extralarge);
+}
+
+.profile-user__logo {
+  width: 50px;
+  height: 50px;
+  margin-right: var(--spacing-medium);
+}
+
+.profile-user__textarea {
+  width: 300px;
+  height: 50px;
+  resize: none;
+}
+
+.profile-user__text {
+  margin: 0;
+  max-width: 250px;
+}
+
+.profile-user__likes {
+  display: flex;
+  align-items: flex-end;
+}
+
+.profile-user__likes img {
+  width: 20px;
+  height: 20px;
+}
+
+.like {
+  margin-right: var(--spacing-small);
+}
