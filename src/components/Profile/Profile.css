@@ -1,12 +1,3 @@
-.app-content {
-  background-color: var(--color-white);
-  width: 70%;
-}
-
 .app-content__bg img {
   height: 150px;
-}
-
-.profile {
-  padding: var(--spacing-medium);
 }

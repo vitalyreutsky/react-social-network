@@ -1,3 +1,4 @@
+import React from "react";
 import MyPosts from "./MyPosts/MyPost";
 
 import "./Profile.css";

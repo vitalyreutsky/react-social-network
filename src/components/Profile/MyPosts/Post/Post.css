@@ -1,7 +1,10 @@
 .profile-user__post {
   display: flex;
-  justify-content: space-between;
   margin-bottom: var(--spacing-extralarge);
+
+  background-color: var(--color-bg-post);
+  border-radius: 3px;
+  padding: var(--spacing-small);
 }
 
 .profile-user__logo {
@@ -17,7 +20,7 @@
 }
 
 .profile-user__text {
-  margin: 0;
+  margin-right: auto;
   max-width: 200px;
 }
 
