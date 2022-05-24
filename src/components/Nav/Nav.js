@@ -1,34 +1,63 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Nav.css";
+
+const classActive = "nav-link_active";
+const navLink = "nav-link";
 
 const Nav = () => {
   return (
     <nav className="nav">
       <ul className="nav-list list-reset">
         <li className="nav-item">
-          <a className="nav-link nav-link_active" href="/profile">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? `${classActive}` : `${navLink}`
+            }
+            to="/profile"
+          >
             Profile
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/messages">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? `${classActive}` : `${navLink}`
+            }
+            to="/messages"
+          >
             Messages
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/news">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? `${classActive}` : `${navLink}`
+            }
+            to="/news"
+          >
             News
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/music">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? `${classActive}` : `${navLink}`
+            }
+            to="/music"
+          >
             Music
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/settings">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? `${classActive}` : `${navLink}`
+            }
+            to="/settings"
+          >
             Settings
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

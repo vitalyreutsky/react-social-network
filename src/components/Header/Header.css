@@ -1,11 +1,10 @@
 .header {
-  width: 100%;
-  padding: var(--spacing-large) 0px;
+  padding: var(--spacing-medium);
   background-color: var(--color-white);
   margin-bottom: var(--spacing-small);
 }
 
-.btn {
-  width: 100px;
-  height: 100px;
+.header-logo {
+  width: 50px;
+  height: 50px;
 }

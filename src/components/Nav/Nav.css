@@ -30,4 +30,5 @@
 
 .nav-link_active {
   color: var(--color-active);
+  text-decoration: underline;
 }
