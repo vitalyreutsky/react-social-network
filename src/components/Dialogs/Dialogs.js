@@ -5,7 +5,7 @@ import DialogItem from "./DialogItem/DialogItem";
 
 import "./Dialogs.css";
 
-const Dialogs = () => {
+const Dialogs = (props) => {
   const dialogsData = [
     { key: 1, name: "Vitaly", male: "man" },
     { key: 2, name: "Vitya", male: "man" },

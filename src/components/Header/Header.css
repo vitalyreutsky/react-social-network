@@ -2,9 +2,10 @@
   padding: var(--spacing-medium);
   background-color: var(--color-white);
   margin-bottom: var(--spacing-small);
+  border-radius: var(--border-radius);
 }
 
-.header-logo {
+.header-logo img {
   width: 50px;
   height: 50px;
 }

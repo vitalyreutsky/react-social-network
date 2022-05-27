@@ -1,8 +1,23 @@
 .profile-user__add-post {
   margin-bottom: var(--spacing-extralarge);
 }
+
+.profile-user__title {
+  margin-bottom: var(--spacing-medium);
+}
+
+.profile-user__textarea {
+  margin-bottom: var(--spacing-medium);
+}
+
 .profile-user__btn {
   display: block;
+  background-color: var(--color-btn);
+  color: var(--color-white);
+  padding: var(--spacing-small) var(--spacing-extralarge);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  font-size: var(--spacing-medium);
 }
 
 @media (max-width: 550px) {

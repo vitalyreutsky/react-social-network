@@ -3,8 +3,10 @@
   margin-bottom: var(--spacing-extralarge);
 
   background-color: var(--color-bg-post);
-  border-radius: 3px;
+  border-radius: var(--border-radius);
   padding: var(--spacing-small);
+
+  box-shadow: var(--box-shadow-inset);
 }
 
 .profile-user__logo {

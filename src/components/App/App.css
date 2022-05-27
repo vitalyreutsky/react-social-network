@@ -12,4 +12,5 @@
   background-color: var(--color-white);
   width: 70%;
   padding: var(--spacing-medium);
+  border-radius: var(--border-radius);
 }
