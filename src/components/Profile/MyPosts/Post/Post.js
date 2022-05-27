@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Post.css";
 
 const Post = (props) => {
@@ -12,22 +13,22 @@ const Post = (props) => {
       <p className="profile-user__text">{props.message}</p>
       <div className="profile-user__likes">
         <div className="profile-user__like like-count">
-          <a className="like" href="#">
+          <button className="like btn-reset">
             <img
               src="https://cdn-icons.flaticon.com/png/128/880/premium/880452.png?token=exp=1653393466~hmac=6835cd9b62bd24b5c57dd4ffa1adeb79"
-              alt="like"
+              alt="likes"
             />
-          </a>
+          </button>
           <span className="like-count__likes">{props.like}</span>
         </div>
         <div className="profile-user__dislike like-count">
-          <a className="dislike" href="#">
+          <button className="dislike btn-reset">
             <img
               src="https://cdn-icons.flaticon.com/png/128/880/premium/880460.png?token=exp=1653393466~hmac=70da8727bc22c55bb742ab0d2b5bfcaf"
-              alt="dislike"
+              alt="dislikes"
             />
-          </a>
-          <span className="like-count__dislikes">{props.dis}</span>
+          </button>
+          <span className="like-count__dislikes">{props.dislike}</span>
         </div>
       </div>
     </div>

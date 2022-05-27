@@ -65,3 +65,10 @@ code {
   margin: 0 auto;
   padding: 0px var(--spacing-medium);
 }
+
+.btn-reset {
+  font-family: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

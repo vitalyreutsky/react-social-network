@@ -2,10 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Nav.css";
 
-const classActive = "nav-link_active";
-const navLink = "nav-link";
-
 const Nav = () => {
+  const classActive = "nav-link_active";
+  const navLink = "nav-link";
+
   return (
     <nav className="nav">
       <ul className="nav-list list-reset">
