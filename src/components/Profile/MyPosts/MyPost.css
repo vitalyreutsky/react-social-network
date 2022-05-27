@@ -4,3 +4,9 @@
 .profile-user__btn {
   display: block;
 }
+
+@media (max-width: 550px) {
+  .profile-user__textarea {
+    width: 100%;
+  }
+}

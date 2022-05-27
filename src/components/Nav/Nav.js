@@ -24,7 +24,7 @@ const Nav = () => {
             className={({ isActive }) =>
               isActive ? `${classActive}` : `${navLink}`
             }
-            to="/messages"
+            to="/dialogs"
           >
             Messages
           </NavLink>

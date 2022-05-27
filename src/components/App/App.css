@@ -1,5 +1,6 @@
 .app {
   height: 100vh;
+  margin-top: var(--spacing-small);
 }
 
 .app-wrapper {

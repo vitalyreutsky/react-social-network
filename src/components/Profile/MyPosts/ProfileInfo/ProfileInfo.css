@@ -1,0 +1,7 @@
+.app-content__bg {
+  margin-bottom: var(--spacing-extralarge);
+}
+
+.app-content__bg img {
+  height: 150px;
+}

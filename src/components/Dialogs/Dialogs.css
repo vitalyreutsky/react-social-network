@@ -3,22 +3,7 @@
   justify-content: center;
   height: 100%;
 }
-
 .person {
   padding-right: var(--spacing-extralarge);
   border-right: 1px solid var(--color-black);
-}
-
-.person-item:not(:last-child),
-.message-item:not(:last-child) {
-  margin-bottom: var(--spacing-large);
-}
-
-.person-item__link {
-  color: var(--color-black);
-  text-decoration: none;
-}
-
-.message {
-  padding-left: var(--spacing-extralarge);
 }
