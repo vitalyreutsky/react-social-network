@@ -2,13 +2,8 @@ import Post from "./Post/Post";
 
 import "./MyPost.css";
 
-const MyPosts = () => {
-  const postData = [
-    { key: 1, message: "Hi, are you?", likes: 10, dislike: 1 },
-    { key: 2, message: "Hi, it`s my first post!", likes: 40, dislike: 3 },
-  ];
-
-  const postItem = postData.map((el) => {
+const MyPosts = (props) => {
+  const postItem = props.posts.map((el) => {
     return (
       <Post
         key={el.key}

@@ -4,11 +4,11 @@ import MyPosts from "./MyPosts/MyPost";
 
 import "./Profile.css";
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div className="app-content profile">
       <ProfileInfo />
-      <MyPosts />
+      <MyPosts posts={props.posts} />
     </div>
   );
 };
